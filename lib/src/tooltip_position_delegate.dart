@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'enums.dart';
 import 'utils.dart';
 
-class ToolTipPositionDelegate extends SingleChildLayoutDelegate {
-  ToolTipPositionDelegate({
+class SuperTooltipPositionDelegate extends SingleChildLayoutDelegate {
+  SuperTooltipPositionDelegate({
     required this.snapsFarAwayVertically,
     required this.snapsFarAwayHorizontally,
     required this.preferredDirection,
@@ -142,5 +142,5 @@ class ToolTipPositionDelegate extends SingleChildLayoutDelegate {
   }
 
   @override
-  bool shouldRelayout(ToolTipPositionDelegate oldDelegate) => true;
+  bool shouldRelayout(SuperTooltipPositionDelegate oldDelegate) => true;
 }
